@@ -1,0 +1,80 @@
+a,
+.img-project,
+.buttons,
+.project-infos,
+.title,
+.project-img,
+.description,
+.project {
+  background-color: #778da9;
+}
+
+.project {
+  width: 75vw;
+  display: flex;
+  justify-content: center;
+  height: 25vh;
+  border-radius: 10px;
+  margin: 2rem auto 0 auto;
+}
+.title {
+  font-family: "IBM Plex Sans SemiBold";
+  font-size: 20px;
+}
+
+.project-img {
+  width: 40vw;
+  height: 20vh;
+}
+.title,
+.description {
+  color: #e0e1dd;
+}
+
+.description {
+  font-family: "IBM Plex Sans Medium";
+  font-size: 14px;
+}
+
+.project-infos,
+.project-img {
+  margin: 1rem;
+}
+
+.buttons {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.btn-code,
+.btn-project {
+  width: 7rem;
+  height: 2rem;
+  border-radius: 10px;
+  font-family: "IBM Plex Sans SemiBold";
+  font-size: 12px;
+  border: 0px;
+}
+
+.btn-code {
+  background-color: #57cc99;
+}
+
+.btn-code:active {
+  background-color: #46a57c;
+}
+
+.btn-project {
+  background-color: #80ed99;
+}
+
+.btn-project:active {
+  background-color: #6ac47f;
+}
+
+.img-project {
+  max-width: 150px;
+}

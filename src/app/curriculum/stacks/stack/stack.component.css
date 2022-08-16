@@ -1,0 +1,20 @@
+.stack {
+  display: flex;
+  align-content: center;
+  margin-bottom: 1rem;
+}
+p {
+  font-family: 'IMB Plex Sans Medium', sans-serif;
+  font-size: 20px;
+}
+.stack-list {
+  display: flex;
+  flex-direction: columns;
+  flex-wrap: wrap;
+  width: 10rem;
+}
+
+.title {
+  font-family: 'IMB Plex Sans Bold', sans-serif;
+  font-size: 32px;
+}

@@ -1,5 +1,10 @@
 <app-header title="Full Stack Developer"></app-header>
-<app-profile></app-profile>
-<app-professional-info></app-professional-info>
+<app-profile userName="{{ user[0].name }}"></app-profile>
+<app-professional-info aboutMe="{{ user[0].aboutMe }}"></app-professional-info>
 <app-stacks></app-stacks>
 <app-projects></app-projects>
+<app-footer
+  userName="{{ user[0].name }}"
+  phoneNumber="{{ user[0].phone }}"
+  email="{{ user[0].email }}"
+></app-footer>

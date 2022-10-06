@@ -1,27 +1,15 @@
 <section class="professional-info">
   <article class="professional-experiance">
     <h2>Professional Experiance</h2>
-    <app-professional-experiance
-      title="Instituto Eldorado de Pesquisas - Analista de QA - 08/2021 - 09/2022"
-      description="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, aliquam ab
-  consequatur eveniet tempora id facere dignissimos perspiciatis reprehenderit
-  at earum consectetur inventore eum rem corporis sequi quos beatae dolorum.
-  Natus, velit. Ad quae optio quo sed vitae nemo quaerat tenetur nam autem
-  laboriosam illo obcaecati ipsum veritatis unde deleniti, aperiam soluta, quod
-  eius enim a quibusdam aliquid ea in. Sed dolor cum ea, eius nisi id quaerat,
-  qui sapiente ex quo, alias modi."
-    ></app-professional-experiance>
+    <div *ngFor="let experiance of experiances">
+      <app-professional-experiance
+        title="{{ experiance.title }}"
+        description="{{ experiance.description }}"
+      ></app-professional-experiance>
+    </div>
   </article>
   <article class="about-me">
     <h2>About Me</h2>
-    <app-about-me
-      aboutMe="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt, aliquam ab
-  consequatur eveniet tempora id facere dignissimos perspiciatis reprehenderit
-  at earum consectetur inventore eum rem corporis sequi quos beatae dolorum.
-  Natus, velit. Ad quae optio quo sed vitae nemo quaerat tenetur nam autem
-  laboriosam illo obcaecati ipsum veritatis unde deleniti, aperiam soluta, quod
-  eius enim a quibusdam aliquid ea in. Sed dolor cum ea, eius nisi id quaerat,
-  qui sapiente ex quo, alias modi."
-    ></app-about-me>
+    <app-about-me aboutMe="{{ aboutMe }}"></app-about-me>
   </article>
 </section>

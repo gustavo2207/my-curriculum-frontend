@@ -1,3 +1,4 @@
+import { FooterModule } from './../components/footer/footer.module';
 import { ProjectsModule } from './projects/projects.module';
 import { StacksModule } from './stacks/stacks.module';
 import { ProfessionalInfoModule } from './professional-info/professional-info.module';
@@ -19,6 +20,7 @@ import { CurriculumComponent } from './curriculum.component';
     ProfessionalInfoModule,
     StacksModule,
     ProjectsModule,
+    FooterModule,
   ],
   exports: [CurriculumComponent],
 })

@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Stack } from '../stack';
 
 @Component({
   selector: 'app-stack',
@@ -8,6 +9,9 @@ import { Component, Input, OnInit } from '@angular/core';
 export class StackComponent implements OnInit {
   @Input()
   title: String = '';
+
+  @Input()
+  stacks!: Stack[];
 
   constructor() {}
 

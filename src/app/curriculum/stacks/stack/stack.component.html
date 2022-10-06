@@ -1,11 +1,7 @@
 <h3 class="title">{{ title }}</h3>
-<ul class="stack-list">
+<ul class="stack-list" *ngFor="let stack of stacks">
   <li class="stack">
-    <img src="../../../../assets/images/HTML image.svg" />
-    <p>HTML</p>
-  </li>
-  <li class="stack">
-    <img src="../../../../assets/images/HTML image.svg" />
-    <p>HTML</p>
+    <img src="{{ stack.url }}" alt="{{ stack.imgName }}" class="stack-img" />
+    <p>{{ stack.name }}</p>
   </li>
 </ul>

@@ -4,7 +4,7 @@
   margin-bottom: 1rem;
 }
 p {
-  font-family: 'IMB Plex Sans Medium', sans-serif;
+  font-family: "IMB Plex Sans Medium", sans-serif;
   font-size: 20px;
 }
 .stack-list {
@@ -14,7 +14,11 @@ p {
   width: 10rem;
 }
 
+.stack-img {
+  max-width: 50px;
+}
+
 .title {
-  font-family: 'IMB Plex Sans Bold', sans-serif;
+  font-family: "IMB Plex Sans Bold", sans-serif;
   font-size: 32px;
 }
